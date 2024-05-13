@@ -1,4 +1,6 @@
 module es.etg.prog.instituto {
+    requires java.sql;
+    requires org.xerial.sqlitejdbc;
     requires transitive javafx.controls;
     requires transitive javafx.fxml;
 
